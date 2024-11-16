@@ -5,32 +5,32 @@ This project leverages the PoseNet model to detect human poses in real time. The
 
 The project currently focuses on:
 
-Real-time video processing
-Pose estimation with the PoseNet deep learning model
-Visualizing detected key points and skeletons
+- Real-time video processing
+- Pose estimation with the PoseNet deep learning model
+- Visualizing detected key points and skeletons
 This project lays the foundation for future work in gesture recognition and sign language interpretation.
 
 <h3>Features </h3>
-Real-Time Pose Detection: Uses the camera feed to estimate and display body keypoints in real-time.
-Skeleton Visualization: Draws connections between detected keypoints to form a human skeleton.
-Interactive Design: Provides a flipped (mirror) video for a user-friendly interface.
+- **Real-Time Pose Detection**: Uses the camera feed to estimate and display body keypoints in real-time.
+- **Skeleton Visualization**: Draws connections between detected keypoints to form a human skeleton.
+- **Interactive Design**: Provides a flipped (mirror) video for a user-friendly interface.
 
 <h2> Technologies Used </h2>
-ml5.js: A JavaScript library built on top of TensorFlow.js for easy-to-use machine learning models.
-p5.js: A JavaScript library for creative coding, enabling graphics and interaction.
-PoseNet: A deep learning model for pose estimation.
+- ml5.js: A JavaScript library built on top of TensorFlow.js for easy-to-use machine learning models.
+- p5.js: A JavaScript library for creative coding, enabling graphics and interaction.
+- PoseNet: A deep learning model for pose estimation.
 
-## Setup Instructions
-Clone or download the repository from GitHub.
-Ensure you have the following files:
-index.html
-sketch.js (contains the code for pose detection)
-Use a local development server to run the project (e.g., using VS Code with the Live Server extension or Python's SimpleHTTPServer).
+<h3>Setup Instructions</h3>
+1. Clone or download the repository from GitHub.
+2. Ensure you have the following files:
+    - index.html
+    - sketch.js (contains the code for pose detection)
+3. Use a local development server to run the project (e.g., using VS Code with the Live Server extension or Python's SimpleHTTPServer).
 Steps:
 1. Install a local server if you don’t have one:
 2. Navigate to the project folder and open it in a browser using the local server.
 
-Future Improvements
+<h3>Future Improvements </h3>
 Gesture Recognition for Interaction:
 
 Develop a gesture recognition system using detected poses.
