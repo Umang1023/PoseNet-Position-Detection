@@ -33,12 +33,12 @@ git clone https://github.com/your-username/pose-detection-gesture-recognition.gi
 ## Usage
 1. Open the project in your browser, and allow camera access.
 2. The PoseNet model will detect the body keypoints in real-time.
-3. Red dots will appear over your body’s keypoints (head, shoulders, elbows, etc.).
+3. Red dots will appear over your body's keypoints (head, shoulders, elbows, etc.).
 4. Skeleton lines will connect these keypoints, providing a skeleton overlay.
 5. The system is optimized to track the keypoints and visualize them on the screen.
 
 ### Example:
-Here’s an example of how the keypoints and skeleton are visualized:
+Here's an example of how the keypoints and skeleton are visualized:
 - **Head**: Topmost keypoint
 - **Shoulders**: Detects both left and right shoulder keypoints
 - **Elbows & Wrists**: Visible along with arms connecting from shoulders to wrists
